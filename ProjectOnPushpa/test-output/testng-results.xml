@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-16T17:55:41 IST" name="Default suite" finished-at="2022-11-16T17:56:07 IST" duration-ms="25995">
+    <groups>
+    </groups>
+    <test started-at="2022-11-16T17:55:41 IST" name="Default test" finished-at="2022-11-16T17:56:07 IST" duration-ms="25995">
+      <class name="tests.FinalTest">
+        <test-method is-config="true" signature="initWikiPage()[pri:0, instance:tests.FinalTest@25084a1e]" started-at="2022-11-16T17:55:41 IST" name="initWikiPage" finished-at="2022-11-16T17:55:45 IST" duration-ms="4206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWikiPage -->
+        <test-method signature="testCountry()[pri:0, instance:tests.FinalTest@25084a1e]" started-at="2022-11-16T17:55:45 IST" name="testCountry" finished-at="2022-11-16T17:55:56 IST" duration-ms="10209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountry -->
+        <test-method is-config="true" signature="tearDownWikiPage()[pri:0, instance:tests.FinalTest@25084a1e]" started-at="2022-11-16T17:55:56 IST" name="tearDownWikiPage" finished-at="2022-11-16T17:55:56 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownWikiPage -->
+        <test-method is-config="true" signature="initWikiPage()[pri:0, instance:tests.FinalTest@25084a1e]" started-at="2022-11-16T17:55:56 IST" name="initWikiPage" finished-at="2022-11-16T17:55:58 IST" duration-ms="2204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initWikiPage -->
+        <test-method signature="testTheReleaseDate()[pri:0, instance:tests.FinalTest@25084a1e]" started-at="2022-11-16T17:55:58 IST" name="testTheReleaseDate" finished-at="2022-11-16T17:56:07 IST" duration-ms="8597" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [17 December 2021] but found [December 17, 2021 (United States)]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [17 December 2021] but found [December 17, 2021 (United States)]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at tests.FinalTest.testTheReleaseDate(FinalTest.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTheReleaseDate -->
+        <test-method is-config="true" signature="tearDownWikiPage()[pri:0, instance:tests.FinalTest@25084a1e]" started-at="2022-11-16T17:56:07 IST" name="tearDownWikiPage" finished-at="2022-11-16T17:56:07 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownWikiPage -->
+      </class> <!-- tests.FinalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
