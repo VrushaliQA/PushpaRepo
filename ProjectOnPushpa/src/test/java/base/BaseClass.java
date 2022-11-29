@@ -29,6 +29,7 @@ public class BaseClass {
 			try {
 				ip=new FileInputStream("E:\\Automation Testing\\Task By Recruiter\\ProjectOnPushpa\\src\\test\\resources\\configurations\\config.properties");
 				prop.load(ip);
+				System.out.println("hi");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
